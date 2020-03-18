@@ -1,0 +1,168 @@
+.heading{
+	top: 5px;
+	font-size: 12px;
+	color: #fff;
+	background: #E74C3C;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.font{
+	color: #000;
+}
+.font1{
+	font-size: 18px;
+	font-weight: bold;
+}
+.background{
+	background-image: url(image.jfif);
+	background-size: cover;
+}
+.text0{
+	font-weight: bold;
+	font-size: 50px;
+}
+.head{
+	top: 5px;
+	font-size: 20px;
+	color: #fff;
+	background: #E74C3C;
+	height: 68px;
+	text-align: center;
+	font-weight: bold;
+}
+.head:hover{
+	color: #000;
+	background: #B03A2E;
+	border-radius: 15px;
+}
+.background1{
+	background-image: url(img.jpg);
+	background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  box-shadow: 3px 0px;
+  color: #E74C3C;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#E74C3C;
+}
+
+.btn.active {
+  background-color: #E74C3C;
+  color: white;
+}
+.img1 {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.background2{
+	background-image: url(img0.jfif);
+	background-size: cover;
+}
+.box {
+	-webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.sha{
+  box-shadow: 3px 0px;
+  color: #7F8C8D; /* Hide all elements by default */
+}
+.box1{
+	color: #000;
+	background: #fff;
+	border-style:solid;
+    border-width:1px;  
+    border-color:#E5E8E8;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 7px;
+}
+.box1:hover{
+	color: #fff;
+	background-color: tomato;
+}
+/* begin Demo Not necessary  */
+/* begin Demo Not necessary   */
+
+/* begin begin Back to Top button  */
+
+.back_to_top {
+	font-size: 40px;
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 30px;
+  background: #2874A6;
+  cursor: pointer;
+  border-radius: 50%;
+  display: none;
+}
+
+.back_to_top:hover {
+  background: #E74C3C;
+}
+
+.back_to_top-show {
+  display: block;
+}
+
+
+/* end begin Back to Top button  */
